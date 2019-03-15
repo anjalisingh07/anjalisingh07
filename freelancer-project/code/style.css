@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+     margin-top:0px;
+     margin-bottom: 0px;
+     margin-right: 0px;
+     margin-left: 0px;
+     font-family: "Lato", sans-serif;
+}
+/*main parent */
+.Container{
+    width:100%;
+    margin-top:2px;
+}
+/* grand parent*/
+.Header{
+    width:95%;
+    margin-left:6%;
+    display:flex;
+}
+/*first parent of header*/
+.MenuFirst{
+    width: 40%;
+    padding:10px;
+    background-color:#000000;
+    text-align:left;
+    float:left;
+}
+hr{ 
+     display:block;
+      position:relative;
+       padding: 0;
+       margin: auto 200px;
+       margin-left:0;
+       height: 0;
+       width: 9%;
+       max-height: 0;
+       line-height: 0;
+       clear: both;
+       border: none;
+       border-top: 1px solid red;
+}
+/*second parent of header*/
+.MenuSecond{
+    width: 40%;
+    padding:10px;
+    background-color:#000000;
+    float: right;
+    text-align:left;
+}
+/* first chilld list*/
+.MenuItemLeft{
+    padding: 3px;
+    display: inline;
+}
+
+.MenuItemLeft a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size:10px;
+}
+/* second child list*/
+.MenuItemRight{
+    padding: 3px;
+    display: inline;
+}
+.MenuItemRight a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size:10px;
+    
+}
+#heading{
+     border-radius:5px;
+     background: #ffe4e1 url(images/2.png) 10px no-repeat;
+     padding:0;
+     width:250px;
+     height:20px;
+     margin: 30px auto;
+}
+#heading h1{
+    font-size: 13px;
+    text-align: center;
+}
+ h2{
+    font-size: 10px;
+    margin-left:200px;
+}
+h3{
+     font-size:10px;
+     text-align:right;
+     margin-right:250px;
+    
+}
+
+
+                              /* First table */
+.FirstImage{
+              float:left;
+              width:7%;
+              margin-top:30px;
+              margin-left: 200px;
+}
+            
+.TableOne {
+         padding:5px;
+         width:88%;
+}
+table,td,tr{
+        border: 1px solid black;
+         margin-left:100px;
+         background-color: #dddddd;
+         margin-top:20px;
+         font-size: 10px;
+}
+
+table{
+      border-collapse:collapse;
+      width:88%;
+}
+ tr {
+     text-align:left;
+     padding:5px;
+     font-size:10px;
+}
+td{
+    height:40px;
+}
+.One{
+        border-right:hidden;
+        border-left-color: blue;
+        border-left-width: Thick;
+}
+.Two{
+      border-right: hidden;
+      border-left-color: green;
+      border-left-width: Thick;
+}
+.Three{
+     border-right:hidden;
+     border-left-color: orange;
+     border-left-width: Thick;
+}
+
+
+                                   /* numbers inside circle*/
+   span.circle{
+   background: white;
+  border-radius:0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #000;
+  display: inline-block;
+  font-weight: bold;
+  line-height:1.7em;
+  margin-left:10px;
+  margin-right:10px;
+  text-align: center;
+  width: 1.7em;
+}
+span.play{
+    background-color: #ffffff;
+    padding: 2px;
+    border-radius:3px;
+    display:inline;
+    margin-left:8px;
+}
+.Recording h1{
+   float:left;
+   font-size:10px;
+}
+
+
+
+                                           /* second table  */
+.SecondImage {
+      float:left;
+      width:7%;
+     margin-top:15px;
+}
+
+.GraphTable {
+       padding:10px;
+       margin-left:200px;
+       width:90%;
+}
+.TableTwo {
+         padding:10px;
+         width:98%;
+}
+table,td,tr{
+        border: 1px solid black;
+}
+
+table{
+      border-collapse:collapse;
+      width:67%;
+}
+tr {
+     text-align:left;
+     padding:5px;
+     font-size:10px;
+}
+td{
+    height:40px;
+}
+.Graph{
+      border-bottom:hidden;
+       border-right:hidden;
+      padding:10px;
+      font-size:10px;
+}
+.Details {
+      border-left:hidden;
+      padding:10px;
+      font-size:10px;
+      border-right:hidden;
+}
+.Dial {
+        padding:5px;
+        font-size:10px;
+        border-right:hidden;
+}
+.Empty_Cell{
+      border-bottom:hidden;
+      padding:5px;
+}
+
+            /* third Table  */
+.ThirdImage{
+              float:left;
+              width:7%;
+              margin-top: 15px;
+              margin-left: 200px;
+}
+            
+.TableThree{
+         padding:5px;
+         width:88%;
+}
+table,td,tr{
+        border: 1px solid black;
+         margin-left:100px;
+         background-color: #dddddd;
+         margin-top:20px;
+         font-size: 10px;
+}
+
+table{
+      border-collapse:collapse;
+      width:67%;
+}
+ tr {
+     text-align:left;
+     padding:5px;
+     font-size:10px;
+}
+td{
+    height:40px;
+}
+
+/* footer */
+ .Footer{
+    background-color: gainsboro;
+    text-align: center;
+    padding-left: 20px 20px 20px 20px;
+}
+
+
+
